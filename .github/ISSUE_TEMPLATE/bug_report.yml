@@ -1,0 +1,11 @@
+name: Bug report
+description: File a bug
+labels: [type:bug]
+body:
+  - type: input
+    id: what
+    attributes: { label: What went wrong? }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce }
