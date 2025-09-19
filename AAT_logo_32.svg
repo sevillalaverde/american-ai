@@ -1,0 +1,22 @@
+# Create a 32x32 SVG logo for $AAT and save it to /mnt/data
+svg_content = """<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#1c2b4d"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="0" y="0" width="32" height="32" rx="6" fill="url(#bg)"/>
+  <!-- Stylized 'A' monogram -->
+  <path d="M16 6 L24 26 H20.8 L19.0 22 H13.0 L11.2 26 H8 L16 6 Z M14.4 19 H17.6 L16 15.8 14.4 19 Z"
+        fill="#FFFFFF"/>
+  <!-- Accent dot suggesting 'AI' -->
+  <circle cx="24" cy="8" r="2" fill="#22d3ee"/>
+</svg>
+"""
+path = "/mnt/data/AAT_logo_32.svg"
+with open(path, "w", encoding="utf-8") as f:
+    f.write(svg_content)
+path
