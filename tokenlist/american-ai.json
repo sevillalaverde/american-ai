@@ -1,0 +1,15 @@
+{
+  "name": "American AI List",
+  "timestamp": "2025-09-19T00:00:00+00:00",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x993aF915901CC6c2b8Ee38260621dc889DCb3C54",
+      "name": "American AI",
+      "symbol": "AAT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/sevillalaverde/american-ai/main/assets/logo/AAT_logo_256.png"
+    }
+  ]
+}
